@@ -1,0 +1,17 @@
+{
+  "name": "terraplots-platform",
+  "version": "1.0.0",
+  "description": "TerraPlots & Properties - Full Stack Real Estate & Middleman Agent Platform",
+  "private": true,
+  "scripts": {
+    "dev:frontend": "npm --prefix frontend run dev",
+    "dev:backend": "npm --prefix backend start",
+    "build:frontend": "npm --prefix frontend run build",
+    "build:backend": "npm --prefix backend run build",
+    "build": "npm run build:backend && npm run build:frontend",
+    "start:backend": "npm --prefix backend start"
+  },
+  "keywords": ["real-estate", "plots", "land-management", "middleman-agent", "surveyor"],
+  "author": "TerraPlots Team",
+  "license": "ISC"
+}
